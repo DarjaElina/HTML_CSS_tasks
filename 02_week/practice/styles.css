@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategray;
+    color: white;
+}
+h1 {
+    background-color: rgb(107, 232, 232);
+    width: 50%;
+    height: 100px;
+    padding: 20px;
+}
+
+/* we cant change height and width of inline elements */
+a {
+    color: white;
+    background-color: rgb(19, 101, 101);
+    width: 50%;
+    height: 100px;
+    /* padding: 20px; */
+}
+
+
+#box {
+    background-color: orange;
+}
+
+.box {
+    background-color: cornflowerblue;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    /* border-top: 8px ridge red;
+    border-left: 2px dotted pink;
+    border-bottom: 6px dashed yellow;
+    border-right: 10px double purple; */
+    /* border-radius: 10px; */
+    /* border: 10px solid blue; */
+    border-radius: 10px;
+    margin: 40px;
+}
+
+p {
+    color: red;
+}
+
+.box > p {
+    color: yellow;
+}
+
+
+
+.circle {
+    background-color: chocolate;
+    /* padding: 50px; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 15% 10% 8%;
+    /* outline is something outside of an element*/
+    outline: 10px solid red;
+    border: 10px solid green;
+}

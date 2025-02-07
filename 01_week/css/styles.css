@@ -1,0 +1,16 @@
+h1 {
+    color: green;
+    font-size: 18px;
+}
+
+#my_id {
+    background-color: pink;
+}
+
+.my_class {
+    background-color: blueviolet;
+}
+
+.my_second_class {
+    background-color: aquamarine;
+}

@@ -1,0 +1,239 @@
+:root {
+    --primary-color: #69013B;
+    --secondary-color: #fce0d1;
+    --neutral-light-color: #f9f9f9;
+    --background-color: #fff;
+    --dark-text-color: rgba(28, 28, 28, 0.8);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", serif;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(252, 224, 209, 0.5);
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.header-navigation {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+
+.header-navigation img {
+    width: 390px;
+    height: 100px;
+}
+
+.header-navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 900px;
+    flex-wrap: wrap;
+    line-height: 24px;
+}
+
+.header-navigation ul:first-child {
+    font-size: 11px;
+}
+
+.header-navigation ul li {
+    padding: 10px;
+}
+
+.header-navigation ul li:hover {
+    color: rgba(252, 224, 209, 0.5);
+}
+
+.header-links li:after {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: 3px;
+    content: "";
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-bottom: 0;
+    border-left: 5px solid transparent;
+    color: var(--secondary-color);
+}
+
+.side-navigation {
+    padding: 0 15px;
+}
+
+.side-navigation li {
+    padding: 10px;
+}
+
+.side-navigation li a {
+    color: var(--primary-color);
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('images/developer-bg.jpg');
+    background-size: cover;
+    padding: 200px;
+}
+
+.hero-title {
+    font-size: 50px;
+}
+
+.hero-title, .hero-tagline {
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    border: 1px solid rgba(255, 255, 255, 0.2552);
+    font-weight: 400;
+    padding: 15px 25px;
+    color: var(--secondary-color);
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #350320;
+}
+
+.about {
+    padding: 30px;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info {
+    width: 70%;
+}
+
+.about-info li a {
+    width: 70%;
+}
+
+.about-title {
+    color: var(--primary-color);
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 20px;
+    margin: 0 0 20px;
+}
+
+.about-text {
+    color: var(--dark-text-color);
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    color: var(--primary-color);
+    line-height: 24px;
+    font-weight: normal;
+    padding: 30px;
+}
+
+.about-content li {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-links li {
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 100px 15px;
+}
+
+.footer-social {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: var(--neutral-light-color);
+    cursor: pointer;
+}
+
+.footer-navigation {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 50px 0;
+    margin: 50px;
+}
+
+.footer-social li i:hover {
+    color: #350320;
+}
+
+.footer-navigation ul {
+    max-width: 200px;
+}
+
+.footer-navigation ul li {
+    margin: 0 0 10px;
+}
+
+.footer-navigation ul li a {
+    color: var(--neutral-light-color);
+    font-size: 12.5px;
+}
+
+.footer-navigation ul li:first-child {
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    font-size: 11.5px;
+    font-family: "Playfair Display", serif;;
+}
+
+.footer-contact, .footer-copyright {
+    text-align: center;
+    color: var(--secondary-color);
+    margin: 0 0 16px;
+}
