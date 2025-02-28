@@ -1,4 +1,4 @@
-# JavaScript Tasks
+# HTML and CSS Tasks
 
 This repo contains solutions for HTML and CSS course exercises.
 
