@@ -12,6 +12,6 @@ This repo contains solutions for HTML and CSS course exercises.
     - [x] landing page
 - **week_04:**
     - [x] practice
-    - [] sign up form
+    - [ ] sign up form
 - **week_05:**
     - [x] portfolio template
